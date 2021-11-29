@@ -1,0 +1,16 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate electron app.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "author": "canselhky",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
